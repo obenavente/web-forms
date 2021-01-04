@@ -19,6 +19,39 @@
           <label>How many pets are in your home?
             <input type="number" name="petCount">
           </label>
+        <label> why do you want to adopt a pet?
+          <textarea name="applicantReason" rows="4" cols="50" ></textarea>
+        </label>
+        <fieldset>
+          <legend>What type of animal are you interested in?
+          </legend>
+          <label>Dogs
+            <input type="checkbox" name="type" value="dogs">
+          </label>
+          <label>Cats
+            <input type="checkbox" name="type" value="cats">
+          </label>
+          <label>Iguana
+            <input type="checkbox" name="type" value="iguana">
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Are you interested in adopting special needs or elderly pets?</legend>
+          <label>Yes
+            <input type="radio" name="special" value="yes">
+          </label>
+          <label>No
+            <input type="radio" name="special" value="no">
+          </label>
+        </fieldset>
+        <label> How many hours a day will is someone usually home to keep a pet company?
+          <select name="hours">
+            <option value="few">less than 10</option>
+            <option value="some">10 to 16</option>
+            <option value="many">more than 16</option>
+          </select>
+        </label>
+
 
       <input type="submit" value="Submit Here">
     </form>
